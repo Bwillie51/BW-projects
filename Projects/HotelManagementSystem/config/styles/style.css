@@ -1,0 +1,203 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #e8e8ed;
+    align-items: center;
+}
+
+h1 {
+    color: #333;
+}
+.header{
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.header h1{
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form select, form button {
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 400px;
+}
+
+form button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    list-style-type: none;
+    padding: initial;
+    background-color: #c1d1e1;
+    border-radius: 18px;
+
+    display:flex;
+    flex-wrap: wrap;
+}
+
+ul li {
+    margin: 4px auto;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+.home-page-menu-item {
+    width: 8.5em;
+    margin: 5px 5px 10px 5px;
+    text-decoration: none;
+  }
+
+
+  /* Footer */
+  footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #5c5656;
+    color: white;
+  }
+  /* Header container from Index */
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c7c2c8;
+    color: rgb(20, 19, 19);
+  }
+  .header-container{
+    background:url("../images/hotel.jpg"); 
+    background-size: cover; /* Makes the image cover the entire container */
+    background-position: center; /* Centers the image */
+  }
+
+  /* Navigation bar From the Index page, the one starting */
+  .nav-bar {
+    display: flex;
+    justify-content: flex-end; /* Aligns navigation to the right */
+    background-color: #5399bb; /* Optional background color */
+    padding: 10px;
+  }
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #b291b9;
+    padding: auto;
+    color: rgb(20, 19, 19);
+
+
+    position: sticky; /* Makes the element "freeze" */
+      top: 0; /* Sticks the element at the top when scrolling */
+    z-index: 1000; /* Makes the element appear on top of other elements */
+  }
+    .nav-bar a {
+        margin: 0 10px;
+        text-decoration: none;
+        color: black;
+        padding:10px;
+    }
+    .nav-bar a:hover {
+        background-color: #f4f4f4;
+    }
+
+    /* Admin login */
+    .header-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .login-container{
+        display: grid;
+        justify-content: center; /* Centers horizontally */
+        align-items: center; /* Centers vertically */
+        height: auto; /* Makes the container fill the viewport height */
+
+    }
+    .login-container img{
+        
+        justify-content: center;
+        align-items: center;
+        height: 80px;
+        width: 80px
+    }
+    .login-image{
+        display: grid;
+        justify-content: center; /* Centers horizontally */
+        align-items: center; /* Centers vertically */
+    }
+    .content h2{
+        align-items: center;
+        display: grid;
+        justify-content: center; /* Centers horizontally */
+       
+    }
+    .login-form{
+        align-items: center;
+    }
+    .home-page-menu-item .menu-item-img-div img {
+        width: 8em;
+        background-color: white;
+        border-radius: 40%;
+        padding: 1em;
+        background-color: gold;
+      }
+      .menu-item-img-div{
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        overflow: hidden;
+        flex: auto;
+        float: right;
+    
+      }
+      .main
+       .content 
+       .home-page-menu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        background-color: white;
+      }
+
+      /* Admin Dashboard */
+      .topnav{
+        color:#b291b9;
+        font-family: Arial, Helvetica, sans-serif;
+
+      }
+      .admin-header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #b291b9;
+        padding: 10px;
+        color: rgb(35, 31, 114);
+      }
